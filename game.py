@@ -2,12 +2,12 @@ from random import randint
 
 
 def number_big(start, stop):
-    print('I am sorry ... your guess is too big!!!')
+    print('I am sorry... your guess is too big!!!\n')
     number = int(input(f'Please enter a number between {start} or {stop}:  '))
     return number
 
 def number_small(start, stop):
-    print('I am sorry... your guess is tool small!!!')
+    print('I am sorry... your guess is too small!!!\n')
     number = int(input(f'Please enter a number between {start} or {stop}:  '))
     return number
 
@@ -16,7 +16,7 @@ start = 0
 stop = 100
 counter = 0
 name = input('What is your name?  ')
-number=int(input('Enter a number between 0 and 100:  '))
+number = int(input('Enter a number between 0 and 100:  '))
 
 while num != number:
     if number > num and number > start and number <= stop:
@@ -30,4 +30,4 @@ while num != number:
     counter += 1    
 
 else:
-    print(f'Good job {name}! You guessed the number after {counter} tries!')
+    print(f'\nGood job {name}! You guessed the number after {counter} tries!')
