@@ -24,4 +24,4 @@ while num!=number:
         number=int(input(f'Your number is wrong \nPlease Enter number betwin {start} or {stop}='))
     counter+=1    
 else:
-    print(f'{name} you very look your can guess this number after {counter} tried')
+    print(f'{name} you very look your can guess this number after {counter} tried . I congratulate you')
