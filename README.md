@@ -40,4 +40,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-- Special thanks to [Name] for their assistance and feedback during the development of this project.
+- Special thanks to [myself] for their assistance and feedback during the development of this project.
